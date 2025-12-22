@@ -40,9 +40,9 @@ FSUB_PICS = (environ.get('FSUB_PICS', 'https://envs.sh/WdA.jpg')).split()  # Fsu
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5123039648').split()] # Replace with the actual admin ID(s) to add
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001952869963').split()]  # Channel id for auto indexing (make sure bot is admin)
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001813638350'))  # Log channel id (make sure bot is admin)
-BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1001826734158'))  # Bin channel id (make sure bot is admin)
+BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-100181363850'))  # Bin channel id (make sure bot is admin)
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002148292464'))  # Notification of those who verify will be sent to your channel
-PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1001813638350'))  # Premium logs channel id
+PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1001826734158'))  # Premium logs channel id
 auth_channel = environ.get('AUTH_CHANNEL', '')  # Channel/Group ID for force sub (make sure bot is admin)
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '').split()]
 support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002551525608')  # Support group id (make sure bot is admin)
@@ -81,7 +81,7 @@ CAPTION_LANGUAGES = ["Bhojpuri", "Hindi", "Bengali", "Tamil", "English", "Bangla
 # ============================
 VERIFY = bool(environ.get('VERIFY', True))  # Verification On (True) / Off (False)
 VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 24))  # Add time in hours
-VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1001767829947'))  # Log channel id (make sure bot is admin)
+VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1001826734158'))  # Log channel id (make sure bot is admin)
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/How_2_Download_From_TeraBox/5732')  # How to open tutorial link for verification
 
 # ============================
