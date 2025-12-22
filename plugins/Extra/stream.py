@@ -2,8 +2,8 @@ from pyrogram import Client, filters, enums
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, ForceReply, CallbackQuery
 from info import URL, LOG_CHANNEL
 from urllib.parse import quote_plus
-from LucyBot.util.file_properties import get_name, get_hash, get_media_file_size
-from LucyBot.util.human_readable import humanbytes
+from SujanBot.util.file_properties import get_name, get_hash, get_media_file_size
+from SujanBot.util.human_readable import humanbytes
 import humanize
 import random
 
@@ -32,14 +32,14 @@ async def stream_start(client, message):
             text=f"•• ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴇᴅ ꜰᴏʀ ɪᴅ #{user_id} \n•• ᴜꜱᴇʀɴᴀᴍᴇ : {username} \n\n•• ᖴᎥᒪᗴ Nᗩᗰᗴ : {fileName}",
             quote=True,
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🚀 Fast Download 🚀", url=download),  # we download Link
-                                                InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)]])  # web stream Link
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🚀 Download 🚀", url=download),  # we download Link
+                                                InlineKeyboardButton('🖥️ Watch Online 🖥️', url=stream)]])  # web stream Link
         )
         rm=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("sᴛʀᴇᴀᴍ 🖥", url=stream),
-                    InlineKeyboardButton('ᴅᴏᴡɴʟᴏᴀᴅ 📥', url=download)
+                    InlineKeyboardButton("Sᴛʀᴇᴀᴍ 🖥", url=stream),
+                    InlineKeyboardButton('Dᴏᴡɴʟᴏᴀᴅ 📥', url=download)
                 ]
             ] 
         )
