@@ -291,9 +291,10 @@ BOT WORKING PROPERLY"""
     PREMIUM_TEXT = """<b>👋 Hᴇʏ {}
 
 <blockquote><u>🎖️ Aᴠᴀɪʟᴀʙʟᴇ Pʟᴀɴs 🎖️</u></blockquote>
-● <code>40₹</code> ➛ <u>Gᴏʟᴅ Pʟᴀɴ</u> » <code>30 Dᴀʏꜱ</code>
-● <code>75₹</code> ➛ <u> Pʟᴀɴ</u> » <code>60 Dᴀʏꜱ</code>
-● <code>120₹</code> ➛ <u>Dɪᴀᴍᴏɴᴅ Pʟᴀɴ</u> » <code>90 Dᴀʏꜱ</code>
+
+›› <code>40₹</code> ➛ <u>Gᴏʟᴅ Pʟᴀɴ</u> » <code>30 Dᴀʏꜱ</code>
+›› <code>75₹</code> ➛ <u>Pʟᴀᴛɪɴᴜᴍ Pʟᴀɴ</u> » <code>60 Dᴀʏꜱ</code>
+›› <code>120₹</code> ➛ <u>Dɪᴀᴍᴏɴᴅ Pʟᴀɴ</u> » <code>90 Dᴀʏꜱ</code>
 
 📸 Qʀ Cᴏᴅᴇ - <a href='https://telegra.ph/Payment-Information-03-09'>Cʟɪᴄᴋ Hᴇʀᴇ Tᴏ Sᴄᴀɴ</a>
 
