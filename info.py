@@ -64,9 +64,9 @@ APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 # ============================
 # MongoDB Configuration
 # ============================
-DATABASE_URI = environ.get('DATABASE_URI', 'mongodb+srv://bojaya7287:bojaya7287@cluster0.flkks51.mongodb.net/?appName=Cluster0')
-DATABASE_URI2 = environ.get('DATABASE_URI2')
-DATABASE_NAME = environ.get('DATABASE_NAME', "Moviefilesbot")
+DATABASE_URI = environ.get('DATABASE_URI', 'mongodb+srv://jatojibu1:jatojibu1@cluster0.juytk2v.mongodb.net/?appName=Cluster0')
+DATABASE_URI2 = environ.get('DATABASE_URI2', 'mongodb+srv://bojaya7287:bojaya7287@cluster0.flkks51.mongodb.net/?appName=Cluster0')
+DATABASE_NAME = environ.get('DATABASE_NAME', "Sujan_Ch")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # ============================
@@ -107,7 +107,7 @@ OWNERID = int(os.environ.get('OWNERID', '5123039648'))  # Replace with the actua
 # ============================
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '5123039648').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '5123039648').split()]
+PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '513039648').split()]
 
 # ============================
 # Miscellaneous Configuration
