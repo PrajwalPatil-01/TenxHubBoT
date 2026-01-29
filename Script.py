@@ -1,12 +1,12 @@
 class script(object):
-    START_TXT = """<b>Hᴇʏ {}, {}\n\nI Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs/Sᴇʀɪᴇꜱ Wɪᴛʜ Pʀᴇᴍɪᴜᴍ Fᴇᴀᴛᴜʀᴇꜱ.\n\nMᴀɪɴᴛᴀɪɴᴇᴅ Bʏ : <a href="https://t.me/Sujan_Ch">@Sujan_Ch</a></b>"""
+    START_TXT = """<b>Hᴇʏ {}, {}\n\nI Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs/Sᴇʀɪᴇꜱ Wɪᴛʜ Pʀᴇᴍɪᴜᴍ Fᴇᴀᴛᴜʀᴇꜱ.\n\nMᴀɪɴᴛᴀɪɴᴇᴅ Bʏ : <a href="https://t.me/TenxHubBackup">🅃ᴇɴxHᴜB</a></b>"""
 
-    GSTART_TXT = """<b>Hᴇʏ {}, {}\n\nI Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs/Sᴇʀɪᴇꜱ Wɪᴛʜ Pʀᴇᴍɪᴜᴍ Fᴇᴀᴛᴜʀᴇꜱ.\n\nMᴀɪɴᴛᴀɪɴᴇᴅ Bʏ : <a href="https://t.me/Sujan_Ch">@Sujan_Ch</a></b>"""
+    GSTART_TXT = """<b>Hᴇʏ {}, {}\n\nI Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs/Sᴇʀɪᴇꜱ Wɪᴛʜ Pʀᴇᴍɪᴜᴍ Fᴇᴀᴛᴜʀᴇꜱ.\n\nMᴀɪɴᴛᴀɪɴᴇᴅ Bʏ : <a href="https://t.me/TenxHubBackup">🅃ᴇɴxHᴜB</a></b>"""
     
     HELP_TXT = """» Wʜᴇʀᴇ Dᴏ Yᴏᴜ Wᴀɴᴛ Tᴏ Oᴘᴇɴ Tʜᴇ Sᴇᴛᴛɪɴɢs Mᴇɴᴜ?."""
 
-    ABOUT_TXT = """<b>❍ ᴍʏ ɴᴀᴍᴇ : <a href="https://t.me/Your_Movie_Search_Bot">Sᴜᴊᴀɴ Bᴏᴛ</a>
-❍ ᴄʀᴇᴀᴛᴏʀ : <a href="https://t.me/Sujan_Ch">ꜱᴜᴊᴀɴ</a>
+    ABOUT_TXT = """<b>❍ ᴍʏ ɴᴀᴍᴇ : <a href="https://t.me/TenxMovieSearch">🅃ᴇɴxHᴜB</a>
+❍ ᴄʀᴇᴀᴛᴏʀ : <a href="https://t.me/TenxHubBackup">🅃ᴇɴxHᴜB</a>
 ❍ ʟɪʙʀᴀʀʏ : <a href="https://pyrogram.org/">ᴘʏʀᴏɢʀᴀᴍ</a>
 ❍ ʟᴀɴɢᴜᴀɢᴇ : <a href="https://www.python.org/">ᴘʏᴛʜᴏɴ</a>
 ❍ ᴅᴀᴛᴀʙᴀꜱᴇ : <a href="https://www.mongodb.com/">ᴍᴏɴɢᴏ ᴅʙ</a>
@@ -19,14 +19,14 @@ class script(object):
 """
 
     SUPPORT_TXT = """ᴛʜᴇsᴇ ᴀʀᴇ ᴍʏ sᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ɢʀᴏᴜᴘ. ɪғ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ, ʀᴇᴘᴏʀᴛ ᴛᴏ ᴛʜᴇ ᴀᴅᴍɪɴ
-ᴘᴏᴡᴇʀᴇᴅ ʙʏ - @Sujan_Ch"""
+ᴘᴏᴡᴇʀᴇᴅ ʙʏ - @TenxHubBackup"""
         
     HELPS_TXT = """» Wʜᴇʀᴇ Dᴏ Yᴏᴜ Wᴀɴᴛ Tᴏ Oᴘᴇɴ Tʜᴇ Sᴇᴛᴛɪɴɢs Mᴇɴᴜ?."""
     
     CHANNELS = """
 <b>๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ᴛᴏ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ɢᴇᴛ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴜs.
 
-ɪғ ʏᴏᴜ ғᴏᴜɴᴅ ᴀɴʏ ʙᴜɢ ɪɴ ˹ʟᴜᴄʏ˼ ᴏʀ ɪғ ʏᴏᴜ ᴡᴀɴɴᴀ ɢɪᴠᴇ ғᴇᴇᴅʙᴀᴄᴋ ᴀʙᴏᴜᴛ ᴛʜᴇ ʙᴏᴛ˼, ᴩʟᴇᴀsᴇ ʀᴇᴩᴏʀᴛ ɪᴛ ᴀᴛ <a href='https://t.me/Sujan_Ch'>sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ</a>.</b>"""
+ɪғ ʏᴏᴜ ғᴏᴜɴᴅ ᴀɴʏ ʙᴜɢ ɪɴ ˹ʟᴜᴄʏ˼ ᴏʀ ɪғ ʏᴏᴜ ᴡᴀɴɴᴀ ɢɪᴠᴇ ғᴇᴇᴅʙᴀᴄᴋ ᴀʙᴏᴜᴛ ᴛʜᴇ ʙᴏᴛ˼, ᴩʟᴇᴀsᴇ ʀᴇᴩᴏʀᴛ ɪᴛ ᴀᴛ <a href='https://t.me/TenxHubBackup'>sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ</a>.</b>"""
 
     
     STATUS_TXT = """<b>╭────[ 🗃 Dᴀᴛᴀʙᴀsᴇ 1 🗃 ]────⍟</b>
@@ -213,7 +213,7 @@ Rᴇǫᴜᴇꜱᴛ Yᴏᴜʀ'ꜱ..."""
 
 ›› ꜱᴛᴇᴘ 7 : ᴜꜱᴇ /set_tutorial ᴛᴏ ᴀᴅᴅ ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴠɪᴅᴇᴏ ꜰᴏʀ ʏᴏᴜʀ ꜱʜᴏʀᴛɴᴇʀ ᴡᴇʙꜱɪᴛᴇ.
 
-› ʟɪᴋᴇ ᴛʜɪꜱ :</b> <code>/set_tutorial https://t.me/How_to_Download</code>
+› ʟɪᴋᴇ ᴛʜɪꜱ :</b> <code>/set_tutorial https://t.me/HowToOpenXP</code>
 
 <b>›› ꜱᴛᴇᴘ 8 : ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴄʜᴇᴄᴋ ᴡʜɪᴄʜ sʜᴏʀᴛᴇɴᴇʀ ʏᴏᴜ ʜᴀᴠᴇ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛʜᴇɴ sᴇɴᴅ /shortlink_info ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ.
 
@@ -296,11 +296,11 @@ BOT WORKING PROPERLY"""
 ›› <code>75₹</code> ➛ <u>Pʟᴀᴛɪɴᴜᴍ Pʟᴀɴ</u> » <code>60 Dᴀʏꜱ</code>
 ›› <code>120₹</code> ➛ <u>Dɪᴀᴍᴏɴᴅ Pʟᴀɴ</u> » <code>90 Dᴀʏꜱ</code>
 
-📸 Qʀ Cᴏᴅᴇ - <a href='https://telegra.ph/Payment-Information-03-09'>Cʟɪᴄᴋ Hᴇʀᴇ Tᴏ Sᴄᴀɴ</a>
+📸 Qʀ Cᴏᴅᴇ - <a href=''>Cʟɪᴄᴋ Hᴇʀᴇ Tᴏ Sᴄᴀɴ</a>
 
 ⚜️ Cʜᴇᴄᴋ Yᴏᴜʀ Aᴄᴛɪᴠᴇ Pʟᴀɴ Bʏ Uꜱɪɴɢ : /myplan
 
-‼️ Mᴜsᴛ Sᴇɴᴅ Sᴄʀᴇᴇɴsʜᴏᴛ Aғᴛᴇʀ Pᴀʏᴍᴇɴᴛ @Sujan_Chh</b>"""
+‼️ Mᴜsᴛ Sᴇɴᴅ Sᴄʀᴇᴇɴsʜᴏᴛ Aғᴛᴇʀ Pᴀʏᴍᴇɴᴛ @TenxHubSupport</b>"""
 
     CPREMIUM_TEXT = """<b>👋 Hᴇʏ {},
     
@@ -346,7 +346,7 @@ BOT WORKING PROPERLY"""
 ○ ᴍᴜʟᴛɪ-ᴘʟᴀʏᴇʀ sᴛʀᴇᴀᴍɪɴɢ ʟɪɴᴋs
 ○ ᴀᴅ-ғʀᴇᴇ ᴇxᴘᴇʀɪᴇɴᴄᴇ
 
-👨‍💻 Cᴏɴᴛᴀᴄᴛ Tʜᴇ <a href='https://t.me/Sujan_Ch'>Owner</a> Tᴏ Gᴇᴛ Yᴏᴜʀ Tʀɪᴀʟ.
+👨‍💻 Cᴏɴᴛᴀᴄᴛ Tʜᴇ <a href='https://t.me/TenxHubSupport'>Owner</a> Tᴏ Gᴇᴛ Yᴏᴜʀ Tʀɪᴀʟ.
 
 ➛ ᴜꜱᴇ /plan ᴛᴏ ꜱᴇᴇ ᴀʟʟ ᴏᴜʀ ᴘʟᴀɴꜱ ᴀᴛ ᴏɴᴄᴇ.
 ➛ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ ʙʏ ᴜꜱɪɴɢ : /myplan</b>"""
@@ -384,7 +384,7 @@ BOT WORKING PROPERLY"""
 ⏰ ᴄᴜꜱᴛᴏᴍɪꜱᴇᴅ ᴅᴀʏꜱ
 💸 ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴅᴀʏꜱ ʏᴏᴜ ᴄʜᴏᴏꜱᴇ
 
-🏆 ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴀ ɴᴇᴡ ᴘʟᴀɴ ᴀᴘᴀʀᴛ ꜰʀᴏᴍ ᴛʜᴇ ɢɪᴠᴇɴ ᴘʟᴀɴ, ᴛʜᴇɴ ʏᴏᴜ ᴄᴀɴ ᴛᴀʟᴋ ᴛᴏ ᴏᴜʀ <a href='https://t.me/Sujan_Ch'>ᴏᴡɴᴇʀ</a> ᴅɪʀᴇᴄᴛʟʏ ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴏɴ ᴛʜᴇ ᴄᴏɴᴛᴀᴄᴛ ʙᴜᴛᴛᴏɴ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ.
+🏆 ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴀ ɴᴇᴡ ᴘʟᴀɴ ᴀᴘᴀʀᴛ ꜰʀᴏᴍ ᴛʜᴇ ɢɪᴠᴇɴ ᴘʟᴀɴ, ᴛʜᴇɴ ʏᴏᴜ ᴄᴀɴ ᴛᴀʟᴋ ᴛᴏ ᴏᴜʀ <a href='https://t.me/TenxHubSupport'>ᴏᴡɴᴇʀ</a> ᴅɪʀᴇᴄᴛʟʏ ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴏɴ ᴛʜᴇ ᴄᴏɴᴛᴀᴄᴛ ʙᴜᴛᴛᴏɴ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ.
     
 👨‍💻 ᴄᴏɴᴛᴀᴄᴛ ᴛʜᴇ ᴏᴡɴᴇʀ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴏᴛʜᴇʀ ᴘʟᴀɴ.
 
